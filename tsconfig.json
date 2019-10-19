@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "$constants": ["src/constants"],
+            "$types": ["src/types"],
+            "$utils": ["src/utils"],
+            "$storage": ["src/storage"],
+            "$storage/*": ["src/storage/*"]
+        }
+    },
+    "include": [
+        "./src/**/*",
+        "./__tests__/**/*"
+    ]
+}
